@@ -1,33 +1,42 @@
 {
   "cognitiveModels": {
     "en": {
-      "dispatchModel": {
-        "authoringkey": "",
-        "appid": "",
-        "name": "",
-        "subscriptionkey": "",
-        "region": ""
-      },
       "languageModels": [
         {
-          "subscriptionkey": "",
-          "appid": "",
-          "id": "",
-          "version": "",
-          "region": "",
-          "name": "",
-          "authoringkey": ""
+          "name": "SummerVABotCharen_general",
+          "id": "general",
+          "version": "0.1",
+          "appid": "b888927c-4b8f-4906-8540-2ae4816640dd",
+          "subscriptionkey": "c1d2f2380d8b49768076de80c53a6a0d",
+          "region": "westus",
+          "authoringkey": "c1d2f2380d8b49768076de80c53a6a0d"
         }
       ],
+      "dispatchModel": {
+        "name": "SummerVABotCharen_Dispatch",
+        "region": "westus",
+        "type": "dispatch",
+        "appid": "4d93e3f3-f59f-48c0-a3b8-dd3a13e3dfdc",
+        "subscriptionkey": "c1d2f2380d8b49768076de80c53a6a0d",
+        "authoringkey": "c1d2f2380d8b49768076de80c53a6a0d"
+      },
       "knowledgebases": [
         {
-          "endpointKey": "",
-          "kbId": "",
-          "hostname": "",
-          "subscriptionKey": "",
-          "name": "",
-          "id": ""
-        }        
+          "name": "chitchat",
+          "id": "chitchat",
+          "hostname": "https://summervabotchar-qnahost.azurewebsites.net",
+          "subscriptionKey": "aeba7b1d2d2646f88f83525986b585fb",
+          "kbId": "12c075ac-e2c2-47d2-a9f9-5be82c7d86b9",
+          "endpointKey": "5c8fc6a2-0e9c-4528-8827-4af91cc27b74"
+        },
+        {
+          "name": "faq",
+          "id": "faq",
+          "hostname": "https://summervabotchar-qnahost.azurewebsites.net",
+          "subscriptionKey": "aeba7b1d2d2646f88f83525986b585fb",
+          "kbId": "b3ac1603-923d-4c54-aeae-0c13d4567b79",
+          "endpointKey": "5c8fc6a2-0e9c-4528-8827-4af91cc27b74"
+        }
       ]
     }
   },

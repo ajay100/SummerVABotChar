@@ -1,0 +1,44 @@
+{
+  "appInsights": {
+    "type": "Object",
+    "value": {
+      "appId": "ebcdd9bb-0781-4a66-a26b-7549a7695989",
+      "instrumentationKey": "6b81c166-18fc-40d7-9c47-06674f38beee"
+    }
+  },
+  "contentModerator": {
+    "type": "Object",
+    "value": {
+      "key": "6760750eb57e484b8d5d3846561881a2"
+    }
+  },
+  "cosmosDb": {
+    "type": "Object",
+    "value": {
+      "authkey": "5Zj4HZGPr6VOZ3SM5JkgDAJXLvTBL8uxDNUfz9yqsCqmLutBt52O7eZM01yo8PKJ2TiwPsZERSvSvGvs8QMYmg==",
+      "collectionId": "botstate-collection",
+      "cosmosDBEndpoint": "https://summervabotchar.documents.azure.com:443/",
+      "databaseId": "botstate-db"
+    }
+  },
+  "luis": {
+    "type": "Object",
+    "value": {
+      "key": "ec2604eeda0b4c11bf1cdcacb4077cdf"
+    }
+  },
+  "qnaMaker": {
+    "type": "Object",
+    "value": {
+      "endpoint": "https://summervabotchar-qnahost.azurewebsites.net",
+      "key": "aeba7b1d2d2646f88f83525986b585fb"
+    }
+  },
+  "storage": {
+    "type": "Object",
+    "value": {
+      "connectionString": "DefaultEndpointsProtocol=https;AccountName=summervabotchar;AccountKey=r4/CM6KiXRJymj/tYCRfrhK/f7KZC9q7UPmGYKZbvbboW0Ka/cG0Pm2E3vrsZVts41lmxbtONgvAqqdOlmk0EA==;EndpointSuffix=core.windows.net",
+      "container": "transcripts"
+    }
+  }
+}

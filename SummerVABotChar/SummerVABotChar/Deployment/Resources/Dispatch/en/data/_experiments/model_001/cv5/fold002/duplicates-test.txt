@@ -1,0 +1,3 @@
+Utterance	Intents
+what's new	q_chitchat, q_faq
+stop talking	l_general, q_chitchat
