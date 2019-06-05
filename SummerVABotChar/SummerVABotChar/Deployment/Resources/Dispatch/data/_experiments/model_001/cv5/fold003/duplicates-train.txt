@@ -1,0 +1,7 @@
+Utterance	Intents
+be quiet	l_general, q_chitchat
+what's new	q_chitchat, q_faq
+yes	l_general, q_chitchat
+i don't understand	l_general, q_chitchat
+what should i do	l_general, q_chitchat
+stop talking	l_general, q_chitchat

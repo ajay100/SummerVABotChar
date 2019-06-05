@@ -1,0 +1,47 @@
+{
+  "authoringRegion": "westus",
+  "culture": "en-us",
+  "hierarchical": true,
+  "useAllTrainingData": false,
+  "dontReviseUtterance": false,
+  "copyLuisData": true,
+  "services": [
+    {
+      "intentName": "l_general",
+      "appId": "b888927c-4b8f-4906-8540-2ae4816640dd",
+      "authoringKey": "c1d2f2380d8b49768076de80c53a6a0d",
+      "version": "0.1",
+      "region": "westus",
+      "type": "luis",
+      "name": "SummerVABotCharen_general",
+      "id": "1"
+    },
+    {
+      "intentName": "q_chitchat",
+      "kbId": "12c075ac-e2c2-47d2-a9f9-5be82c7d86b9",
+      "subscriptionKey": "aeba7b1d2d2646f88f83525986b585fb",
+      "type": "qna",
+      "name": "chitchat",
+      "id": "2"
+    },
+    {
+      "intentName": "q_faq",
+      "kbId": "b3ac1603-923d-4c54-aeae-0c13d4567b79",
+      "subscriptionKey": "aeba7b1d2d2646f88f83525986b585fb",
+      "type": "qna",
+      "name": "faq",
+      "id": "3"
+    }
+  ],
+  "serviceIds": [
+    "1",
+    "2",
+    "3"
+  ],
+  "appId": "4d93e3f3-f59f-48c0-a3b8-dd3a13e3dfdc",
+  "authoringKey": "c1d2f2380d8b49768076de80c53a6a0d",
+  "version": "Dispatch",
+  "region": "westus",
+  "type": "dispatch",
+  "name": "SummerVABotCharen_Dispatch"
+}
